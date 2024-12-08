@@ -30,7 +30,7 @@ const team = [
     {
         name: 'Sittampalam Sooriyakumar',
         role: 'Senior Software Engineer',
-        image: 'https://github.com/vithusan99/affinitycodeworks/blob/main/images/soorya.jpg',
+        image: 'images/soorya.jpg',
         bio: 'Having 2+ years of Software industry experience with BSc.(Hons) in Electronic Telecommunication Engineering degree',
         technology: 'Springboot, React, MongoDB, MySQL, Java'
     },
