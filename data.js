@@ -21,21 +21,24 @@ const projects = [
 
 const team = [
     {
-        name: 'Sarah Johnson',
-        role: 'Lead Developer',
+        name: 'Pirunthapan Murugaiah',
+        role: 'Software Engineer',
         image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400&h=400',
-        bio: 'Full-stack developer with 8+ years of experience in building scalable web applications.'
+        bio: 'Software Engineer Passionate about transforming innovative ideas into functional and efficient software solutions.',
+        technology: 'Springboot, React, MongoDB, MySQL, Java'
     },
     {
-        name: 'Michael Chen',
-        role: 'UI/UX Designer',
-        image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400&h=400',
-        bio: 'Creative designer passionate about creating beautiful and intuitive user experiences.'
+        name: 'Sittampalam Sooriyakumar',
+        role: 'Senior Software Engineer',
+        image: 'https://github.com/vithusan99/affinitycodeworks/blob/main/images/soorya.jpg',
+        bio: 'Having 2+ years of Software industry experience with BSc.(Hons) in Electronic Telecommunication Engineering degree',
+        technology: 'Springboot, React, MongoDB, MySQL, Java'
     },
     {
-        name: 'Emily Rodriguez',
-        role: 'Backend Engineer',
+        name: 'Jesumani Anithvithushan',
+        role: 'Full-stack developer',
         image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400&h=400',
-        bio: 'Database expert specializing in high-performance and scalable backend systems.'
+        bio: 'Full-stack developer with 3+ years of experience in building scalable web applications.',
+        technology: 'Java, React, Angular, Vue JS, Laravel, MongoDB, MySQL, Figma'
     }
 ];
