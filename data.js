@@ -23,22 +23,28 @@ const team = [
     {
         name: 'Pirunthapan Murugaiah',
         role: 'Software Engineer',
-        image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400&h=400',
+        image: 'images/pirun3.jpg',
         bio: 'Software Engineer Passionate about transforming innovative ideas into functional and efficient software solutions.',
-        technology: 'Springboot, React, MongoDB, MySQL, Java'
+        technology: 'Springboot, React, MongoDB, MySQL, Java',
+        github: 'https://github.com/mpirunthapan',
+        linkedin: 'https://www.linkedin.com/in/pirunthapan-murugaiah/'
     },
     {
         name: 'Sittampalam Sooriyakumar',
         role: 'Senior Software Engineer',
-        image: 'https://github.com/vithusan99/affinitycodeworks/blob/main/images/soorya.jpg',
+        image: 'images/soorya.jpg',
         bio: 'Having 2+ years of Software industry experience with BSc.(Hons) in Electronic Telecommunication Engineering degree',
-        technology: 'Springboot, React, MongoDB, MySQL, Java'
+        technology: 'Springboot, React, MongoDB, MySQL, Java',
+        github: 'https://github.com/sooriyakumar23',
+        linkedin: 'https://www.linkedin.com/in/pirunthapan-murugaiah/'
     },
     {
         name: 'Jesumani Anithvithushan',
         role: 'Full-stack developer',
-        image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400&h=400',
+        image: 'images/anith2.JPG',
         bio: 'Full-stack developer with 3+ years of experience in building scalable web applications.',
-        technology: 'Java, React, Angular, Vue JS, Laravel, MongoDB, MySQL, Figma'
+        technology: 'Java, React, Angular, Vue JS, Laravel, MongoDB, MySQL, Figma',
+        github: 'https://github.com/vithusan99',
+        linkedin: 'https://www.linkedin.com/in/pirunthapan-murugaiah/'
     }
 ];
