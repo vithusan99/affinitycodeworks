@@ -1,21 +1,54 @@
 const projects = [
     {
-        title: 'E-Commerce Platform',
+        title: 'YarlMakket - E Commerce',
         description: 'A modern e-commerce solution with real-time inventory management and secure payment processing.',
-        image: 'https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80&w=800&h=600',
-        tech: ['React', 'Node.js', 'MongoDB']
+        image: '/images/projects/yarl-makket.jpg',
+        site: 'https://yarlmakket.herokuapp.com/',
+        tech: ['React', 'JAVA', 'MongoDB']
     },
     {
         title: 'Task Management System',
         description: 'Collaborative project management tool with real-time updates and team communication features.',
-        image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800&h=600',
+        image: '/images/projects/p1.png',
+        site: 'https://task.vintageinterior.co.uk/dashboard',
         tech: ['Vue.js', 'Laravel', 'MySQL']
     },
     {
-        title: 'Analytics Dashboard',
+        title: 'MaxCare - E Medical Platform',
         description: 'Data visualization platform providing real-time insights and customizable reporting.',
-        image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800&h=600',
-        tech: ['React', 'D3.js', 'Firebase']
+        image: '/images/projects/emedic.png',
+        site: 'http://pirunthapan.rabatguru.dk',
+        tech: ['Wordpress', 'Elementor', 'MySQL']
+    },
+    {
+        title: 'Job Search Dashboard',
+        description: 'Data visualization platform providing real-time insights and customizable reporting.',
+        image: '/images/projects/p2.png',
+        site: 'https://vithusan99.github.io/JobFinderWebApp/',
+        tech: ['React', 'Tailwind CSS']
+    },
+    {
+        title: 'Greemy - Flower Selling Platform',
+        description: 'Data visualization platform providing real-time insights and customizable reporting.',
+        image: '/images/projects/p10.png',
+        site: '',
+        tech: ['HTML', 'CSS']
+    },
+   
+    {
+        title: 'HooBank - Payment Potral',
+        description: 'Data visualization platform providing real-time insights and customizable reporting.',
+        image: '/images/projects/p3.png',
+        site: 'https://vithusan99.github.io/Vite_react_Bank_App/',
+        tech: ['React', 'Tailwind CSS']
+    },
+   
+    {
+        title: 'Airbnb - Cloned',
+        description: 'Clone of AirBnb website',
+        image: '/images/projects/p5.png',
+        site: 'https://sooriyakumar23.github.io/Airbnb_Static/',
+        tech: ['HTML', 'CSS']
     }
 ];
 
@@ -23,7 +56,7 @@ const team = [
     {
         name: 'Pirunthapan Murugaiah',
         role: 'Software Engineer',
-        image: 'images/pirun3.jpg',
+        image: 'images/staffs/pirun3.jpg',
         bio: 'Software Engineer Passionate about transforming innovative ideas into functional and efficient software solutions.',
         technology: 'Springboot, React, MongoDB, MySQL, Java',
         github: 'https://github.com/mpirunthapan',
@@ -32,7 +65,7 @@ const team = [
     {
         name: 'Sittampalam Sooriyakumar',
         role: 'Senior Software Engineer',
-        image: 'images/soorya.jpg',
+        image: 'images/staffs/soorya.jpg',
         bio: 'Having 2+ years of Software industry experience with BSc.(Hons) in Electronic Telecommunication Engineering degree',
         technology: 'Springboot, React, MongoDB, MySQL, Java',
         github: 'https://github.com/sooriyakumar23',

@@ -9,6 +9,10 @@ menuToggle.addEventListener('click', () => {
     icon.classList.toggle('fa-times');
 });
 
+function truncateText(text){
+    console.log('truncate text',text);
+    return text?.length>60 ? text.slice(0,60)+'...' : text;
+}
 // Projects Section
 const projectsGrid = document.getElementById('projectsGrid');
 
@@ -19,7 +23,7 @@ projects.forEach(project => {
         <img src="${project.image}" alt="${project.title}">
         <div class="project-content">
             <h3>${project.title}</h3>
-            <p>${project.description}</p>
+            <p>${truncateText(project.description)}</p>
             <div class="tech-tags">
                 ${project.tech.map(tech => `
                     <span class="tech-tag">
@@ -50,8 +54,8 @@ team.forEach(member => {
             <p class="role">${member.role}</p>
             <p>${member.bio}</p>
             <div class="social-links">
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="${member.github}"><i class="fab fa-github"></i></a>
+                <a href="${member.linkedin}"><i class="fab fa-linkedin"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
             </div>
         </div>
