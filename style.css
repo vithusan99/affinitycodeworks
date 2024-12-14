@@ -103,7 +103,9 @@ body {
     color: var(--text-light);
     font-size: 1.125rem;
 }
-
+.cursor-hand{
+    cursor: pointer;
+}
 .cta-button {
     display: inline-flex;
     align-items: center;
@@ -177,6 +179,51 @@ body {
 .project-content p {
     color: var(--text-light);
     margin-bottom: 1rem;
+}
+
+/* From Uiverse.io by JaydipPrajapati1910 */
+.project-content .contactButton {
+    background: rgba(88, 101, 242, 1);
+    color: white;
+    font-family: inherit;
+    padding: 0.3em;
+    padding-left: 2.0em;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.5em;
+    padding-right: 4em;
+}
+
+.project-content .iconButton {
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
+    right: 0.3em;
+    transition: all 0.3s;
+}
+
+.project-content .contactButton:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #5566c2;
+}
+
+.project-content .contactButton:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #5566c2;
 }
 
 .tech-tags {
